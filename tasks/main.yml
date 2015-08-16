@@ -1,0 +1,5 @@
+---
+
+- name: Install squid3
+  apt: name=squid3 state=present
+  sudo: yes
